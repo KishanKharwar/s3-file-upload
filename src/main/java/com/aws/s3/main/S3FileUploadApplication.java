@@ -21,7 +21,7 @@ public class S3FileUploadApplication  implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		uploadFile.upload("D:\\CodeBase\\Kishan\\s3-file-upload\\s3-file-upload\\abc.csv");
+		uploadFile.upload("D:\\CodeBase\\Kishan\\s3-file-upload\\abc.csv");
 	}
 
 }

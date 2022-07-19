@@ -44,6 +44,13 @@ public class UploadFile {
         }
     }
 
+    /**
+     *
+     * @param path This is the bucket name in S3
+     * @param fileName
+     * @param optionalMetaData
+     * @param inputStream
+     */
     public void upload(String path,
                        String fileName,
                        Optional<Map<String, String>> optionalMetaData,
